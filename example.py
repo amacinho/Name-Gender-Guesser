@@ -1,4 +1,6 @@
 # Encoding: utf8
+# Copyright 2010 Amaç Herdağdelen
+
 from name_gender import NameGender
 from web_name_gender import WebNameGender
 

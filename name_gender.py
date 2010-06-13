@@ -1,3 +1,6 @@
+# Encoding: utf8
+# Copyright 2010 Amaç Herdağdelen
+
 class NameGender():
     """This class helps to handle two dictionaries which contain the gender
     association scores of names. Provide the gender scores and call

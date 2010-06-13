@@ -1,3 +1,6 @@
+# Encoding: utf8
+# Copyright 2010 Amaç Herdağdelen
+
 import urllib
 from urllib import quote_plus as urlquote_plus
 

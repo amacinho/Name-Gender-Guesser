@@ -1,10 +1,15 @@
-Introduction: In this project, you will find a very simple Python scripts and data files to guess the gender of a given name.
+COPYING: Name Gender Guesser is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. Name Gender Guesser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with Name Gender Guesser. If not, see <http://www.gnu.org/licenses/>.
+
+Introduction: In this project, you will find two datasets containing relative frequencies of names in male and female populations and very simple Python scripts to handle these datasets and to guess the gender of a given name.
 
 Quick Start: Checkout the code and run example.py
 
 Less Quick Start: This project contains two datasets for gender assocciation of common American names.
 
-First one, us_census, comes from the US Census Bureu.
+First one, us_census, comes from the US Census Bureu and constructed as follows:
+
 The names are fetched from the Bureu's web site (http://www.census.gov/genealogy/www/data/1990surnames/names_files.html) and put in two files: us_census_males and us_census_females which contain the
 frequency of names for the sample male and female population respective (according to 1990 census).
 
@@ -21,10 +26,3 @@ The class WebNameGender does not use any dataset to guess the gender of the name
 * "husband of X", "wife of X"
 
 In the first case, "X himself" provides evidence that X is a he. In the second case, "husband of X" provides evidence that X is a she. By comparing several pattern pairs like these, WebNameGender computes a gender score for X.
-
-
-
-
-
-
-
