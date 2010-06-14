@@ -18,9 +18,9 @@ The second dataset, popular_baby_names, comes from the US Social Security Admini
 1) Fetch most popular 100 female and male names for every year between 1960 and 2010 from http://www.ssa.gov/cgi-bin/popularnames.cgi
 2) For each male and female name calculate the average probability of usage between 1960 and 2010. Missing years are not used in averaging. That implies if a name was in top100 list for only year for the given period, its final score will be its probability for that year.
 
-The class NameGender (contained in name_gender.py) handles with these datasets. If you have your own dataset, you can also use them. The format is trivial.
+The class NameGender (contained in name_gender.py) handles with these datasets. If you have your own dataset, you can also use it. The format is trivial (really, check them yourself).
 
-The class WebNameGender does not use any dataset to guess the gender of the name. It simple carries out several web-searches via Yahoo! BOSS API and calculates a gender score according the hit counts. It provides a fallback mechanism if a given name is not contained in the datasets. It also works fairly well for common names in languages other than English (a proper evaluation is yet to be done). You will need a BOSS Application ID to use this class. Two example patterns that WebNameGender uses for a given name X are:
+The class WebNameGender does not use any dataset to guess the gender of the name. It simply carries out several web-searches via Yahoo! BOSS API and calculates a gender score according the hit counts. It provides a fallback mechanism if a given name is not contained in the datasets. It also works fairly well for common names in languages other than English (a proper evaluation is yet to be done). You will need a BOSS Application ID to use this class. Two example patterns that WebNameGender uses for a given name X are:
 
 * "X himself", "X herself"
 * "husband of X", "wife of X"
