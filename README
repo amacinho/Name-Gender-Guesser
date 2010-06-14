@@ -1,16 +1,16 @@
-COPYING: Name Gender Guesser is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. Name Gender Guesser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+Copying: Name Gender Guesser is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. Name Gender Guesser is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with Name Gender Guesser. If not, see <http://www.gnu.org/licenses/>.
 
-Introduction: In this project, you will find two datasets containing relative frequencies of names in male and female populations and very simple Python scripts to handle these datasets and to guess the gender of a given name.
+Introduction: Name Gender Guesser helps you to find out the gender of a given name. You can either use two provided datasets (or another if you have your own) consisting of common American names with their frequencies in male and female populations, or you can use Yahoo! BOSS API to guess the gender of an unknown name by carrying out some pattern-based searches.
 
 Quick Start: Checkout the code and run example.py
 
-Less Quick Start: This project contains two datasets for gender assocciation of common American names.
+Less Quick Start: This project contains two datasets for gender assocciations of common American names and two scripts, one to handle these datasets, another to carry out a web-based search to guess the gender of unknown names.
 
-First one, us_census, comes from the US Census Bureu and constructed as follows:
+First dataset, us_census, comes from the US Census Bureau and constructed as follows:
 
-The names are fetched from the Bureu's web site (http://www.census.gov/genealogy/www/data/1990surnames/names_files.html) and put in two files: us_census_males and us_census_females which contain the
+The names are fetched from the Bureau's web site (http://www.census.gov/genealogy/www/data/1990surnames/names_files.html) and put in two files: us_census_males and us_census_females which contain the
 frequency of names for the sample male and female population respective (according to 1990 census).
 
 The second dataset, popular_baby_names, comes from the US Social Security Administration's statistics for popular baby names for every year between 1960 and 2010. The dataset is constructed as follows:
